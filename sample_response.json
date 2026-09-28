@@ -1,0 +1,35 @@
+{
+  "original_prompt": "Please write a very detailed SQL query to select all users.",
+  "original_tokens": 11,
+  "variants": [
+    {
+      "mode": "safe",
+      "prompt": "Write detailed SQL query to select all users.",
+      "tokens": 9,
+      "saved_tokens": 2,
+      "notes": [
+        "Removed filler words"
+      ]
+    },
+    {
+      "mode": "balanced",
+      "prompt": "SQL query: select all users",
+      "tokens": 6,
+      "saved_tokens": 5,
+      "notes": [
+        "Removed filler words",
+        "Compressed format"
+      ]
+    },
+    {
+      "mode": "aggressive",
+      "prompt": "SELECT * FROM users",
+      "tokens": 5,
+      "saved_tokens": 6,
+      "notes": [
+        "Direct SQL output"
+      ]
+    }
+  ],
+  "analysis": null
+}
